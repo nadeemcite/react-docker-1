@@ -19,8 +19,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>{count}</h1>
-        <button onClick={buttonIncrementHandler}>+</button>
-        <button onClick={buttonDecrementHandler}>-</button>
+        <button onClick={buttonIncrementHandler}>Add (+)</button>
+        <button onClick={buttonDecrementHandler}>Sub (-)</button>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
